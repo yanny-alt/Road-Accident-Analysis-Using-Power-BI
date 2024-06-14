@@ -31,7 +31,7 @@ In an era where data-driven decisions are crucial, analyzing road accident data 
   - Continuously monitor and analyze traffic data to inform policy decisions.
 
 ### Dashboard Screenshot
-![Dashboard Screenshot](https://app.powerbi.com/view?r=eyJrIjoiMThkM2IzMjAtMTc2YS00ZDE2LTg1ZDktYzVjOTlmOGZmNzE4IiwidCI6IjQ5MWM2ZTNhLTA3MjItNDhmMi1iMDFhLWFhMzliODc0MGYxNiJ9)
+![Power BI Link](https://app.powerbi.com/view?r=eyJrIjoiMThkM2IzMjAtMTc2YS00ZDE2LTg1ZDktYzVjOTlmOGZmNzE4IiwidCI6IjQ5MWM2ZTNhLTA3MjItNDhmMi1iMDFhLWFhMzliODc0MGYxNiJ9)
 
 ## Main Dashboard
 The Power BI dashboard we created visually presents the key insights and metrics derived from the dataset. It allows stakeholders to interactively explore the data and gain a better understanding of Road accidents trends around The United Kingdom
@@ -83,6 +83,15 @@ Using Power BI’s data modeling features, relationships between different table
 - **Casualties by Road Type**: Analysis of casualties based on road type.
 - **Casualties by Area/Location & Day/Night**: Insights on casualties based on location and time of day.
 
+## Conclusion
+
+The Road Accident Analysis project in Power BI has been a rewarding endeavor, enhancing my skills in data visualization, analysis, and storytelling. The insights derived from this project can play a crucial role in improving road safety by informing targeted interventions and policies.
+
+Thank you for reading! Your feedback is appreciated. If you are interested in learning more about my work or discussing potential opportunities, please feel free to connect with me on 
+![LinkedIn](https://www.linkedin.com/in/favourokechukwu/).
+
+
+
 
 ## DAX Formulas Used in Measures
 
@@ -91,11 +100,4 @@ PY Accidents = CALCULATE(COUNT(Data[Accident_Index]), SAMEPERIODLASTYEAR('Calend
 PY Casualties = CALCULATE(SUM(Data[Number_of_Casualties]), SAMEPERIODLASTYEAR('Calendar'[Date]))
 YoY Accidents = ([CY Accidents Count] - [PY Accidents]) / [PY Accidents]
 YoY Casualties = ([CY Casualties] - [PY Casualties]) / [PY Casualties]
-
-## Conclusion
-
-The Road Accident Analysis project in Power BI has been a rewarding endeavor, enhancing my skills in data visualization, analysis, and storytelling. The insights derived from this project can play a crucial role in improving road safety by informing targeted interventions and policies.
-
-Thank you for reading! Your feedback is appreciated. If you are interested in learning more about my work or discussing potential opportunities, please feel free to connect with me on ![LinkedIn](https://www.linkedin.com/in/favourokechukwu/).
-
 
